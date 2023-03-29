@@ -11,6 +11,9 @@
 		4B39260F29D20948007A95C8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B39260E29D20948007A95C8 /* ContentView.swift */; };
 		4B39261129D20949007A95C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B39261029D20949007A95C8 /* Assets.xcassets */; };
 		4B39261429D20949007A95C8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B39261329D20949007A95C8 /* Preview Assets.xcassets */; };
+		4B39261C29D20B80007A95C8 /* Bacteria.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B39261B29D20B80007A95C8 /* Bacteria.swift */; };
+		4B39261E29D20CEB007A95C8 /* BacteriaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B39261D29D20CEB007A95C8 /* BacteriaView.swift */; };
+		4B39262029D20EA0007A95C8 /* GameBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B39261F29D20EA0007A95C8 /* GameBoard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		4B39261029D20949007A95C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B39261329D20949007A95C8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4B39261529D20949007A95C8 /* BioBlitz.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BioBlitz.entitlements; sourceTree = "<group>"; };
+		4B39261B29D20B80007A95C8 /* Bacteria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bacteria.swift; sourceTree = "<group>"; };
+		4B39261D29D20CEB007A95C8 /* BacteriaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BacteriaView.swift; sourceTree = "<group>"; };
+		4B39261F29D20EA0007A95C8 /* GameBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBoard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 				4B39261029D20949007A95C8 /* Assets.xcassets */,
 				4B39261529D20949007A95C8 /* BioBlitz.entitlements */,
 				4B39261229D20949007A95C8 /* Preview Content */,
+				4B39261B29D20B80007A95C8 /* Bacteria.swift */,
+				4B39261D29D20CEB007A95C8 /* BacteriaView.swift */,
+				4B39261F29D20EA0007A95C8 /* GameBoard.swift */,
 			);
 			path = BioBlitz;
 			sourceTree = "<group>";
@@ -141,6 +150,9 @@
 			files = (
 				4B39260F29D20948007A95C8 /* ContentView.swift in Sources */,
 				4B39260D29D20948007A95C8 /* BioBlitzApp.swift in Sources */,
+				4B39262029D20EA0007A95C8 /* GameBoard.swift in Sources */,
+				4B39261C29D20B80007A95C8 /* Bacteria.swift in Sources */,
+				4B39261E29D20CEB007A95C8 /* BacteriaView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
